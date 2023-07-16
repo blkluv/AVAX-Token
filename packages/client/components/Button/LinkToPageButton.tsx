@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import { ReactNode } from 'react';
 
 import styles from './LinkToPageButton.module.css';
 
 type Props = {
   linkTo: string;
-  iconLeft: any;
+  iconLeft: ReactNode;
   description: string;
 };
 
